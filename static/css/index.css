@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'regularregular';
+    src: url('/static/css/fonts/CONCRETE/concrete-regular-webfont.woff2') format('woff2'),
+         url('/static/css/fonts/CONCRETE/concrete-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Concrete', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    font-size: 13.7vw;
+    margin-block-start: 0.0em;
+    margin-block-end: 0.0em;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 4vw;
+    margin-block-start: 2.0em;
+    margin-block-end: 0.2em;
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 3vw;
+    margin-block-start: -0.5em;
+    margin-block-end: 0.0em;
+    color: rgb(131, 131, 131);
+}
+
+
+.content {
+    position: absolute;
+    color: #f1f1f1;
+    width: 96vw;
+    padding: 2vw;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+.gallery {
+    position: relative;
+}
+
+.gallery-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.gallery-col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+#gallery-title {
+    font-size: 6vw;
+    position: absolute;
+    /* text-overflow: visible; */
+}
+
+#wide-image {
+    max-width: 80%;
+    overflow: visible;
+}
+
+#archive-image {
+    max-width: 15vh;
+    overflow: visible;
+}
+
+.rignt-text {
+    text-align: right;
+}
+
+
+.about {
+    font-size: 3vw;
+}
+
+.sticky-menu {
+    font-size: 4vw;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+
+.fullscreen-bg::after {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    background-color: rgba(0,0,0,0.90);
+}
+
+.video-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
