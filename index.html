@@ -2,9 +2,34 @@
 <html lang="en">
 
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="static/js/simplebox.min.js"></script>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="static/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Playfair+Display&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="static/css/index.css">
+    <link rel="stylesheet" href="static/css/simplebox.min.css">
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(72359119, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/72359119" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="Шахматный клуб Шахматные гиги" />
@@ -12,7 +37,6 @@
 </head>
 
 <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">
         <div class="fullscreen-bg">
             <video autoplay muted loop class="video-bg">
@@ -20,7 +44,13 @@
             </video>
         </div>
         <div class="content">
+
             <h1>Шахматный клуб</h1>
+            <div>
+                <p class="marquee"><span>Шахматный клуб | Chess Club | Шахматные гиги | Chess Gigs |&nbsp;</span></p>
+                <p class="marquee marquee2"><span>Шахматный клуб | Chess Club | Шахматные гиги | Chess Gigs
+                        |&nbsp;</span></p>
+            </div>
             <div class="about">
                 <ul>
                     <li>кинопросмотры</li>
@@ -41,38 +71,42 @@
                 <h2>Архив мероприятий</h2>
                 <div class="gallery-row">
                     <div class="gallery-col">
-                        <img src="static/images/archive-events (1).jpg" id="archive-image">
+                        <img src="static/images/archive-events (1).jpg" class="slb" id="archive-image">
                     </div>
                     <div class="gallery-col">
-                        <img src="static/images/archive-events (2).jpg" id="archive-image">
+                        <img src="static/images/archive-events (2).jpg" class="slb" id="archive-image">
                     </div>
                     <div class="gallery-col">
-                        <img src="static/images/archive-events (3).jpg" id="archive-image">
+                        <img src="static/images/archive-events (3).jpg" class="slb" id="archive-image">
                     </div>
                     <div class="gallery-col">
-                        <img src="static/images/archive-events (4).jpg" id="archive-image">
+                        <img src="static/images/archive-events (4).jpg" class="slb" id="archive-image">
                     </div>
                     <div class="gallery-col">
-                        <img src="static/images/archive-events (5).jpg" id="archive-image">
+                        <img src="static/images/archive-events (5).jpg" class="slb" id="archive-image">
                     </div>
                     <div class="gallery-col">
-                        <img src="static/images/archive-events (6).jpg" id="archive-image">
+                        <img src="static/images/archive-events (6).jpg" class="slb" id="archive-image">
                     </div>
                     <div class="gallery-col">
-                        <img src="static/images/archive-events (7).jpg" id="archive-image">
+                        <img src="static/images/archive-events (7).jpg" class="slb" id="archive-image">
                     </div>
                     <div class="gallery-col">
-                        <img src="static/images/archive-events (8).jpg" id="archive-image">
+                        <img src="static/images/archive-events (8).jpg" class="slb" id="archive-image">
                     </div>
                     <div class="gallery-col">
-                        <img src="static/images/archive-events (9).jpg" id="archive-image">
+                        <img src="static/images/archive-events (9).jpg" class="slb" id="archive-image">
                     </div>
                     <div class="gallery-col">
-                        <img src="static/images/archive-events (10).jpg" id="archive-image">
+                        <img src="static/images/archive-events (10).jpg" class="slb" id="archive-image">
                     </div>
                 </div>
             </div>
-
+            <div>
+                <p class="marquee"><span>Шахматный клуб | Chess Club | Шахматные гиги | Chess Gigs |&nbsp;</span></p>
+                <p class="marquee marquee2"><span>Шахматный клуб | Chess Club | Шахматные гиги | Chess Gigs
+                        |&nbsp;</span></p>
+            </div>
             <div class="gallery">
                 <h2>Галерея</h2>
                 <div class="gallery-row">
@@ -114,7 +148,11 @@
                     </div>
                 </div>
             </div>
-
+            <div>
+                <p class="marquee"><span>Шахматный клуб | Chess Club | Шахматные гиги | Chess Gigs |&nbsp;</span></p>
+                <p class="marquee marquee2"><span>Шахматный клуб | Chess Club | Шахматные гиги | Chess Gigs
+                        |&nbsp;</span></p>
+            </div>
             <div>
                 <h2>Мерч</h2>
                 <div class="about">
@@ -127,8 +165,15 @@
             <br>
 
             <div class="sticky-menu">
-                <a href="tel:+79956078404">позвонить</a> | <a href="https://instagram.com/chessgigs">инстаграм</a>
+                <a href="tel:+79956078404" target="_blank">позвонить</a> | <a href="https://instagram.com/chessgigs"
+                    target="_blank">инстаграм</a>
             </div>
+
+            <script>
+                $(function () {
+                    $(".slb").simplebox({ darkMode: true });
+                });
+            </script>
         </div>
     </div>
 </body>
