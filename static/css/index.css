@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'regularregular';
+    font-family: Concrete;
     src: url('/static/css/fonts/CONCRETE/concrete-regular-webfont.woff2') format('woff2'),
          url('/static/css/fonts/CONCRETE/concrete-regular-webfont.woff') format('woff');
     font-weight: normal;
@@ -13,7 +13,7 @@ html, body {
 }
 
 h1 {
-    font-family: 'Concrete', Arial, sans-serif;
+    font-family: Concrete, Arial, sans-serif;
     font-weight:normal;
     font-style:normal;
     font-size: 13.7vw;
@@ -79,7 +79,8 @@ h3 {
 }
 
 #wide-image {
-    max-width: 80%;
+    min-height: 50%;
+    /* max-width: 80%; */
     overflow: visible;
 }
 
