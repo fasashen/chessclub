@@ -76,12 +76,11 @@ h3 {
 #gallery-title {
     font-size: 6vw;
     position: absolute;
-    /* text-overflow: visible; */
 }
 
 #wide-image {
     min-height: 50%;
-    /* max-width: 80%; */
+    max-width: 100%;
     overflow: visible;
 }
 
