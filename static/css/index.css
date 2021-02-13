@@ -65,6 +65,7 @@ h3 {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    align-items: flex-start;
 }
 
 .gallery-col {
@@ -72,7 +73,14 @@ h3 {
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+
+
 }
+
+.gallery-col-padding {
+    padding: 10px;
+}
+
 
 #gallery-title {
     font-size: 3vw;
@@ -136,12 +144,11 @@ h3 {
     font-weight:600;
     margin: 0 auto;
     white-space: nowrap;
-    overflow: hidden;
+    overflow: visible;
     font-weight: 100;
     font-size: 3vw;
     color: rgb(131, 131, 131);
     text-transform: uppercase;
-    width: 92vw;
 }
 
 .marquee span {
